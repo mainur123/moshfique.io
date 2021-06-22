@@ -62,16 +62,31 @@ h5{
 
 /*Goal*/
 .goal-sec{
+	height: 100%;
 	padding: 100px 0;
 }
 
 /*About*/
 .aboutme-sec{
-	background-color: rgb(22, 22, 22);
+	background: linear-gradient(-45deg, #000000, #373636, #626a6d, #676a69);
+	
+	animation: change 10s infinite alternate;
+}
+
+@keyframes change {
+	0%{
+		background-position: left;
+	}
+	50%{
+		background-position: right;
+	}
+	100%{
+		background-position: left;
+	}
 }
 
 .about-sec-txt{
-	position: relative;
+	
 	color: white;
 	padding: 100px 100px 0 100px;
 }
@@ -229,7 +244,7 @@ html{
 
 
 #particles-js{
-	height: 600px;
+	height: 850px;
 	background: rgb(10, 8, 8);
 	color: white;
 }
