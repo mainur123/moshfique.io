@@ -68,7 +68,7 @@ h5{
 
 /*About*/
 .aboutme-sec{
-	background: linear-gradient(-45deg, #000000, #373636, #626a6d, #676a69);
+	background: linear-gradient(-45deg, #000000, #181818, #2a2b2b, #444444);
 	
 	animation: change 10s infinite alternate;
 }
@@ -129,10 +129,13 @@ h5{
 }
 
 .port-sec{
+	background: linear-gradient(-45deg, #000000, #0f0f0f, #161616, #2b2a2a);
+	color: white;
 	padding: 100px 0;
 }
 
 .port-img{
+	background: linear-gradient(-45deg, #000000, #0f0f0f, #161616, #2b2a2a);
 	padding-left: 100px; 
 	padding-bottom: 50px;
 }
@@ -148,7 +151,7 @@ h5{
 	position: relative;
 	width: 300px;
 	height: 200px;
-	background: rgb(255, 255, 255);
+	background: linear-gradient(#2b2a2a);
 	margin: 20px;
 	box-sizing: border-box;
 	display: inline-block;
