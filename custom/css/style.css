@@ -67,10 +67,12 @@ h5{
 
 /*About*/
 .aboutme-sec{
-	background-color: #f2f2f1;
+	background-color: rgb(22, 22, 22);
 }
 
 .about-sec-txt{
+	position: relative;
+	color: white;
 	padding: 100px 100px 0 100px;
 }
 
