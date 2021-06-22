@@ -226,3 +226,8 @@ html{
 }
 
 
+#particles-js{
+	height: 600px;
+	background: rgb(10, 8, 8);
+	color: white;
+}
